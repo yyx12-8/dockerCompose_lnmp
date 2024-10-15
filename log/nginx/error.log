@@ -1,0 +1,81 @@
+2024/10/14 13:59:25 [notice] 1#1: using the "epoll" event method
+2024/10/14 13:59:25 [notice] 1#1: nginx/1.27.2
+2024/10/14 13:59:25 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/10/14 13:59:25 [notice] 1#1: OS: Linux 3.10.0-957.el7.x86_64
+2024/10/14 13:59:25 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 65536:65536
+2024/10/14 13:59:25 [notice] 1#1: start worker processes
+2024/10/14 13:59:25 [notice] 1#1: start worker process 28
+2024/10/14 13:59:25 [notice] 1#1: start worker process 29
+2024/10/14 14:00:49 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/10/14 14:00:49 [notice] 28#28: gracefully shutting down
+2024/10/14 14:00:49 [notice] 28#28: exiting
+2024/10/14 14:00:49 [notice] 28#28: exit
+2024/10/14 14:00:49 [notice] 29#29: gracefully shutting down
+2024/10/14 14:00:49 [notice] 29#29: exiting
+2024/10/14 14:00:49 [notice] 29#29: exit
+2024/10/14 14:00:49 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2024/10/14 14:00:49 [notice] 1#1: worker process 29 exited with code 0
+2024/10/14 14:00:49 [notice] 1#1: signal 29 (SIGIO) received
+2024/10/14 14:00:49 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2024/10/14 14:00:49 [notice] 1#1: worker process 28 exited with code 0
+2024/10/14 14:00:49 [notice] 1#1: exit
+2024/10/14 14:10:02 [notice] 1#1: using the "epoll" event method
+2024/10/14 14:10:02 [notice] 1#1: nginx/1.27.2
+2024/10/14 14:10:02 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/10/14 14:10:02 [notice] 1#1: OS: Linux 3.10.0-957.el7.x86_64
+2024/10/14 14:10:02 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 65536:65536
+2024/10/14 14:10:02 [notice] 1#1: start worker processes
+2024/10/14 14:10:02 [notice] 1#1: start worker process 28
+2024/10/14 14:10:02 [notice] 1#1: start worker process 29
+2024/10/14 14:10:49 [error] 28#28: *4 open() "/var/www/html/project/favicon.ico" failed (2: No such file or directory), client: 192.168.29.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "192.168.29.189", referrer: "http://192.168.29.189/phpinfo.php"
+2024/10/14 14:19:19 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/10/14 14:19:19 [notice] 29#29: gracefully shutting down
+2024/10/14 14:19:19 [notice] 29#29: exiting
+2024/10/14 14:19:19 [notice] 29#29: exit
+2024/10/14 14:19:19 [notice] 28#28: gracefully shutting down
+2024/10/14 14:19:19 [notice] 28#28: exiting
+2024/10/14 14:19:19 [notice] 28#28: exit
+2024/10/14 14:19:19 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2024/10/14 14:19:19 [notice] 1#1: worker process 28 exited with code 0
+2024/10/14 14:19:19 [notice] 1#1: worker process 29 exited with code 0
+2024/10/14 14:19:19 [notice] 1#1: exit
+2024/10/14 14:19:30 [notice] 1#1: using the "epoll" event method
+2024/10/14 14:19:30 [notice] 1#1: nginx/1.27.2
+2024/10/14 14:19:30 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/10/14 14:19:30 [notice] 1#1: OS: Linux 3.10.0-957.el7.x86_64
+2024/10/14 14:19:30 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 65536:65536
+2024/10/14 14:19:30 [notice] 1#1: start worker processes
+2024/10/14 14:19:30 [notice] 1#1: start worker process 28
+2024/10/14 14:19:30 [notice] 1#1: start worker process 29
+2024/10/14 14:25:12 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/10/14 14:25:12 [notice] 29#29: gracefully shutting down
+2024/10/14 14:25:12 [notice] 29#29: exiting
+2024/10/14 14:25:12 [notice] 28#28: gracefully shutting down
+2024/10/14 14:25:12 [notice] 28#28: exiting
+2024/10/14 14:25:12 [notice] 28#28: exit
+2024/10/14 14:25:12 [notice] 29#29: exit
+2024/10/14 14:25:13 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2024/10/14 14:25:13 [notice] 1#1: worker process 29 exited with code 0
+2024/10/14 14:25:13 [notice] 1#1: signal 29 (SIGIO) received
+2024/10/14 14:25:13 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2024/10/14 14:25:13 [notice] 1#1: worker process 28 exited with code 0
+2024/10/14 14:25:13 [notice] 1#1: exit
+2024/10/14 14:25:50 [notice] 1#1: using the "epoll" event method
+2024/10/14 14:25:50 [notice] 1#1: nginx/1.27.2
+2024/10/14 14:25:50 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/10/14 14:25:50 [notice] 1#1: OS: Linux 3.10.0-957.el7.x86_64
+2024/10/14 14:25:50 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 65536:65536
+2024/10/14 14:25:50 [notice] 1#1: start worker processes
+2024/10/14 14:25:50 [notice] 1#1: start worker process 28
+2024/10/14 14:25:50 [notice] 1#1: start worker process 29
+2024/10/14 14:54:04 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/10/14 14:54:05 [notice] 29#29: gracefully shutting down
+2024/10/14 14:54:05 [notice] 29#29: exiting
+2024/10/14 14:54:05 [notice] 28#28: gracefully shutting down
+2024/10/14 14:54:05 [notice] 28#28: exiting
+2024/10/14 14:54:05 [notice] 28#28: exit
+2024/10/14 14:54:05 [notice] 29#29: exit
+2024/10/14 14:54:05 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2024/10/14 14:54:05 [notice] 1#1: worker process 28 exited with code 0
+2024/10/14 14:54:05 [notice] 1#1: worker process 29 exited with code 0
+2024/10/14 14:54:05 [notice] 1#1: exit
